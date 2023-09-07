@@ -10,6 +10,9 @@ try:
     # Gender should only contain M or F
     # Age should not be < 0 or > 100
     # Name should only accept letters
+    if not first_name.isalpha():
+        raise ValueError()
+ 
     if gender == "m" or gender == "M":
         print("Hello Mr." + last_name + "! Thank you for your info.\n"
             + first_name + "\n" + last_name + "\n" + str(age) + "\n" + gender)
