@@ -12,6 +12,8 @@ try:
     # Name should only accept letters
     if not first_name.isalpha():
         raise ValueError()
+    if not last_name.isalpha():
+        raise ValueError()
  
     if gender == "m" or gender == "M":
         print("Hello Mr." + last_name + "! Thank you for your info.\n"
