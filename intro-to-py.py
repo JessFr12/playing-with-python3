@@ -14,7 +14,13 @@ try:
         raise ValueError()
     if not last_name.isalpha():
         raise ValueError()
- 
+    if not age > 0:
+        print("That is not quite possible. (Age must be over 0 and under 100)")
+        raise ValueError()
+    if not age < 100:
+        print("That is not quite possible. (Age must be over 0 and under 100)")
+        raise ValueError()
+    
     if gender == "m" or gender == "M":
         print("Hello Mr." + last_name + "! Thank you for your info.\n"
             + first_name + "\n" + last_name + "\n" + str(age) + "\n" + gender)
