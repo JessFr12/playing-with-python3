@@ -10,6 +10,9 @@ class Dog:
     def eat():
         print("OM NOM NOM NOM")
     
+    def sleep():
+        print("zzzZZZZ")
+        
 george = Dog("George", "Gold", "Good boy")
 Dog.bark()
 
