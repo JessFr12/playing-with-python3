@@ -7,7 +7,9 @@ class Dog:
     def bark():
         print("ruff ruuff...arf")
 
-    def run():
+    def eat():
+        print("OM NOM NOM NOM")
+    
 george = Dog("George", "Gold", "Good boy")
 Dog.bark()
 
