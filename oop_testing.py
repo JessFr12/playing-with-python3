@@ -1,18 +1,15 @@
 class Dog:
-    def __init__(self, name, color, behavior):
-        self.name = name
-        self.color = color
-        self.behavior = behavior
+    def __init__(self):
+        pass
     
-    def bark():
+    def bark(self):
         print("ruff ruuff...arf")
 
-    def eat():
+    def eat(self):
         print("OM NOM NOM NOM")
     
-    def sleep():
+    def sleep(self):
         print("zzzZZZZ")
         
-george = Dog("George", "Gold", "Good boy")
-Dog.bark()
-
+george = Dog()
+george.bark()
