@@ -1,6 +1,6 @@
-class Dog:
-    def __init__(self):
-        pass
+class Animal:
+    def __init__(self, name):
+        self.name = name
 
     def pet_info(self, age, color):
         self._age = age
@@ -18,5 +18,3 @@ class Dog:
     def sleep(self):
         print("zzzZZZZ")
         
-george = Dog()
-george.bark()
