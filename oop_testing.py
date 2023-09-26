@@ -1,6 +1,13 @@
 class Dog:
     def __init__(self):
         pass
+
+    def pet_info(self, age, color):
+        self._age = age
+        self._color = color
+
+    def display_info(self):
+        print("Age: {self._age}, Color: {self._color}")
     
     def bark(self):
         print("ruff ruuff...arf")
