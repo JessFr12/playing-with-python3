@@ -21,7 +21,7 @@ user_selection = []
 # Keep prompting the user for input until they are finished
 while True:
     user_input = input("\nEnter an item (type 'done' when finished):\n")
-
+# Need to fix where user does not have to worry about case sensitivity
     if user_input == "done": 
         break
 
@@ -33,4 +33,4 @@ while True:
 
     user_selection.append(user_input)
 
-
+print("Your selections are: ", user_selection)
